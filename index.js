@@ -13,12 +13,12 @@ const validDomains = [
     "https://omemorimax.com",
     "https://memorimaxoficial.fun",
     "https://memorimax.shop",
-    "http://localhost:5173/"
+    "http://localhost:5173"
 ];
 
 // Função para normalizar domínio
 const normalizeDomain = (domain) => {
-    return domain.replace('www.', '');
+    return domain.replace(/(^\w+:|^)\/\//, '').replace('www.', '');
 };
 
 // Rota para verificar múltiplos domínios
