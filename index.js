@@ -8,12 +8,18 @@ app.use(express.json()); // Para analisar JSON no corpo das requisições
 
 // Array com domínios oficiais
 const validDomains = [
-    "https://memorimax.com",
-    "https://memorimax.com.br",
-    "https://omemorimax.com",
-    "https://memorimaxoficial.fun",
-    "https://memorimax.shop",
-    "http://localhost:5173/"
+    
+    "localhost:5173",
+    "eternavitaoficial.com",
+    "oeternavita.fun",
+    "queroeternavita.fun",
+    "eternavita.com.br",
+    "eternavita.com",
+    "omemorimax.com",
+    "memorimaxoficial.fun",
+    "memorimax.shop",
+    "memorimax.com.br",
+    "memorimax.com"
 ];
 
 // Função para normalizar domínio
