@@ -4,6 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(cors());
+app.use(express.json()); // Para analisar JSON no corpo das requisições
 
 // Array com domínios oficiais
 const validDomains = [
@@ -15,15 +16,27 @@ const validDomains = [
     "http://localhost:5173/"
 ];
 
-// Rota para verificar o domínio
-app.get('/api/verify-domain', (req, res) => {
-    const domain = req.query.domain;
-    const normalizedDomain = domain.replace('www.', '');
-    if (validDomains.includes(normalizedDomain)) {
-        res.json({ isValid: true });
-    } else {
-        res.json({ isValid: false });
+// Função para normalizar domínio
+const normalizeDomain = (domain) => {
+    return domain.replace('www.', '');
+};
+
+// Rota para verificar múltiplos domínios
+app.post('/api/verify-domains', (req, res) => {
+    const domains = req.body.domains;
+    if (!domains || !Array.isArray(domains)) {
+        return res.status(400).json({ error: "Please provide an array of domains." });
     }
+
+    const results = domains.map(domain => {
+        const normalizedDomain = normalizeDomain(domain);
+        return {
+            domain,
+            isValid: validDomains.includes(normalizedDomain)
+        };
+    });
+
+    res.json(results);
 });
 
 app.listen(port, () => {
