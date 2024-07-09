@@ -18,6 +18,9 @@ const validDomains = [
     "memorimax.shop",
     "memorimax.com.br",
     "memorimax.com",
+    "omemoricoffee.com",
+    "oinsulitrol.com",
+    "insulitrol.com",
     "localhost:5173"
 ];
 
