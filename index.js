@@ -21,6 +21,9 @@ const validDomains = [
     "omemoricoffee.com",
     "oinsulitrol.com",
     "insulitrol.com",
+    "ofloraxil.com",
+    "floraxim.com",
+    "floraxil.com",
     "localhost:5173"
 ];
 
