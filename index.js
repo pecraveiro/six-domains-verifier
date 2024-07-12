@@ -8,8 +8,9 @@ app.use(express.json()); // Para analisar JSON no corpo das requisições
 
 // Array com domínios oficiais
 const validDomains = [
-    "eternavitaoficial.com",
+    "eternavitaoriginal.com",
     "oeternavita.fun",
+    "oeternavita.com",
     "queroeternavita.fun",
     "eternavita.com.br",
     "eternavita.com",
