@@ -14,6 +14,7 @@ const validDomains = [
     "queroeternavita.fun",
     "eternavita.com.br",
     "eternavita.com",
+    "oternavita.com.br",
     "omemorimax.com",
     "memorimaxoficial.fun",
     "memorimax.shop",
