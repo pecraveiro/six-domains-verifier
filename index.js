@@ -30,6 +30,7 @@ const validDomains = [
     "flloraxil.com",
     "floraxim.com.br",
     "floraxi.com",
+    "floraslimofficial.com"
     "localhost:5173"
 ];
 
