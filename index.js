@@ -26,7 +26,7 @@ const validDomains = [
     "insulitrol.com",
     "ofloraxil.com",
     "floraxim.com",
-    "floraxilbrasil.com"
+    "floraxilbrasil.com",
     "floraxil.com",
     "floraxill.com",
     "flloraxil.com",
