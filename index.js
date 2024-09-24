@@ -14,6 +14,7 @@ const validDomains = [
     "queroeternavita.fun",
     "eternavita.com.br",
     "eternavita.com",
+    "eternvita.com",
     "oeternavita.com.br",
     "omemorimax.com",
     "memorimaxoficial.fun",
@@ -25,6 +26,7 @@ const validDomains = [
     "insulitrol.com",
     "ofloraxil.com",
     "floraxim.com",
+    "floraxilbrasil.com"
     "floraxil.com",
     "floraxill.com",
     "flloraxil.com",
