@@ -35,6 +35,7 @@ const validDomains = [
     "ofloraxil.com.br",
     "floraslimofficial.com",
     "endopowerpro.com",
+    "theendopower.com",
     "localhost:5173"
 ];
 
