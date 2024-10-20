@@ -33,6 +33,7 @@ const validDomains = [
     "floraxim.com.br",
     "floraxi.com",
     "floraxjl.com",
+    "floraxim.site",
     "ofloraxil.com.br",
     "floraslimofficial.com",
     "endopowerpro.com",
