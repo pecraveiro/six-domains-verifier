@@ -38,6 +38,10 @@ const validDomains = [
     "floraslimofficial.com",
     "endopowerpro.com",
     "theendopower.com",
+    "ogummyslim.com",
+    "erefortoriginal.com",
+    "oeregummy.com.br",
+    "lipocofee.com.br",
     "localhost:5173"
 ];
 
