@@ -47,6 +47,7 @@ const validDomains = [
     "lipotrin.com.br",
     "thealphagummy.com",
     "floracoffee.com.br",
+    "gummyglow.com.br",
     "localhost:5173"
 ];
 
