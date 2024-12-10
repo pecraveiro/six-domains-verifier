@@ -48,6 +48,7 @@ const validDomains = [
     "thealphagummy.com",
     "floracoffee.com.br",
     "gummyglow.com.br",
+    "ogumyslim.com",
     "localhost:5173"
 ];
 
