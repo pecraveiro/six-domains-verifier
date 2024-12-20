@@ -49,6 +49,7 @@ const validDomains = [
     "floracoffee.com.br",
     "gummyglow.com.br",
     "ogumyslim.com",
+    "gumyslim.com",
     "localhost:5173"
 ];
 
