@@ -51,6 +51,7 @@ const validDomains = [
     "ogumyslim.com",
     "gumyslim.com",
     "gummyslin.com",
+    "morolift.com",
     "localhost:5173"
 ];
 
