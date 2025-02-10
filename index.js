@@ -54,6 +54,7 @@ const validDomains = [
     "morolift.com",
     "gummyslimofficial.com",
     "ofloraxiloriginal.com",
+    "alphagumy.com",
     "localhost:5173"
 ];
 
