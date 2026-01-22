@@ -59,6 +59,7 @@ const validDomains = [
     "sixminutewellness.com",
     "alphgummy.com",
     "alphagummyofficial.com",
+    "endopowerproofficial.com"
     "localhost:5173"
 ];
 
